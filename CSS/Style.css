@@ -1,0 +1,40 @@
+
+@keyframes fadeInUp {
+    
+    0% {
+        opacity: 0;
+        transform: translateY(30px); 
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+
+.animated-text {
+    font-family: sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20%;
+    
+    
+    animation-name: fadeInUp;       
+    animation-duration: 1s;         
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ebd59f;
+    color: #4B3621;
+    line-height: 1.6;
+}
